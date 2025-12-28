@@ -27,5 +27,3 @@ This repository focuses on **Module 6: AI Analysis & Results**, the core intelli
 - Styling: Tailwind CSS  
 - UI Components: shadcn/ui  
 - AI: Large Language Model (LLM)  
-
-## Folder Structure
