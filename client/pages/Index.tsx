@@ -244,7 +244,7 @@ export default function Index() {
                 <div className="p-2 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-lg">
                   <Sparkles size={20} className="text-white" />
                 </div>
-                <span className="font-bold text-white">CareerAI</span>
+                <span className="font-bold text-white">AI Analysis & Result</span>
               </div>
               <p className="text-sm">
                 Empowering students with AI-driven career guidance
