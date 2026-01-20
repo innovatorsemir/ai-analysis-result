@@ -314,7 +314,7 @@ export default function Index() {
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm">
-              © 2025 AI Analysis & Result. All rights reserved.
+              © 2025 AI Analysis & Result. All rights reserved. By Semir-X Projects.
             </p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition text-sm">

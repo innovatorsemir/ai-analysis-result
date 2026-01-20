@@ -40,13 +40,20 @@ export default function Results() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Navigation bar */}
       <div className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <button
             onClick={() => navigate("/")}
             className="flex items-center gap-2 text-indigo-600 hover:text-indigo-700 font-semibold transition-colors"
           >
             <ArrowLeft size={20} />
             Back to Home
+          </button>
+
+          <button
+            onClick={() => navigate("/projects")}
+            className="px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300"
+          >
+            View Projects
           </button>
         </div>
       </div>
